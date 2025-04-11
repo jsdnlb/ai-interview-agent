@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${monatSans.className} antialiased`}
+        className={`${monatSans.className} antialiased pattern`}
       >
         {children}
       </body>
